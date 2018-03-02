@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 750px) and (max-width: 799px){
+@media screen and (min-width: 750px){
   .hero {
     width: 50%;
   }
