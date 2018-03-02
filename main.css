@@ -26,6 +26,7 @@ ul {
 }
 
 
+
 /*
  *
  * Common
@@ -162,6 +163,9 @@ main {
 .hero .description{
   font-size: 18px;
 }
+article p{
+  font-size: 18px;
+}
 
 
 /*
@@ -279,7 +283,7 @@ main {
 .weather {
   /* +++++ adding flex-glow */
   flex-grow: 1;
-  padding: 0.8em;
+  padding: 1em;
 }
 
 .weather__location {
@@ -313,8 +317,10 @@ main {
 
 .weather__next__item {
   display: inline-block;
-  width: 20%;
+  width: 16%;
+  padding: 0.2em;
   text-align: center;
+  font-size:16px
 }
 
 .weather__next__item span {

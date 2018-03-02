@@ -55,7 +55,7 @@
 }
 
 
-@media screen and (min-width: 606px) {
+@media screen and (min-width: 606px){
   .hero {
     order: 0;
     width: 60%;
@@ -66,14 +66,10 @@
   }
   h3{
     font-size: 20px;
-    
-  }
-  article p{
-    font-size: 18px;
   }
 }
 
-@media screen and (min-width: 7500px) {
+@media screen and (min-width: 750px) and (max-width: 799px){
   .hero {
     width: 50%;
   }
@@ -88,16 +84,19 @@
   .weather {
     order: 3;
   }
+  .top-news__item {
+    padding: 0.6em;
+  }
 }
-/* mino change 
-@media screen and (min-width: 790px) {
-  h3{
-    font-size: 20px;
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 24px;
   }
-  article p{
-    font-size: 18px;
+  article p {
+    font-size: 19px;
   }
-  */
+}
 
 @media screen and (min-width: 850px) {
   main, .header__inner, .nav, .content {
