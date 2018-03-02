@@ -7,7 +7,7 @@ body, html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 18px;
   color: #424242;
 }
 
@@ -67,7 +67,7 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
+  font-size: 3em;
   margin: 0.5em 0.25em;
   display: inline-block;
   color: #212121;
@@ -157,7 +157,10 @@ main {
   height: 40%;
   width: 100%;
   color: #fff;
-  padding: 1em;
+  padding: 0.5em;
+}
+.hero .description{
+  font-size: 18px;
 }
 
 
@@ -171,7 +174,7 @@ main {
   /*  +++++Changed to max-height from height */
   max-height: 300px;
   border-bottom: 1px solid #E0E0E0;
-  padding: 1em;
+  padding: 0.5em;
   /*  +++++ add width */
   width: 100%;
 }
@@ -208,7 +211,15 @@ main {
 .top-news__item a:active {
   text-decoration: underline;
 }
+/*
+ *
+ * Table
+ *
+ */
 
+ .contained_table{
+   width: 100%;
+ }
 
 /*
  *
@@ -229,7 +240,7 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em; 
+  padding: 0.5em; 
 }
 
 .scores__table th {
@@ -268,7 +279,7 @@ main {
 .weather {
   /* +++++ adding flex-glow */
   flex-grow: 1;
-  padding: 1em;
+  padding: 0.8em;
 }
 
 .weather__location {
