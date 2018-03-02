@@ -168,9 +168,11 @@ main {
  */
 
 .top-news {
+  /*  +++++Changed to max-height from height */
   max-height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  /*  +++++ add width */
   width: 100%;
 }
 
@@ -198,6 +200,7 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
+  /*  +++++ add title to make it look better its inherit to all child nodes */
   padding: 1.5em inherit;
 }
 
@@ -215,6 +218,7 @@ main {
 
 .scores {
   padding-top: 1em;
+  /*  +++++ adding flex-glow (to weather,recent-news) */
   flex-grow: 1;
 }
 
@@ -262,6 +266,7 @@ main {
  */
 
 .weather {
+  /* +++++ adding flex-glow */
   flex-grow: 1;
   padding: 1em;
 }
@@ -317,6 +322,7 @@ main {
  */
 
 .recent-news {
+  /* +++++ adding flex-glow */
   flex-grow: 1;
   clear: both;
   padding: 1em;
@@ -340,6 +346,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  /* +++++ adding padding inherit to all child node */
   padding: 1.5em inherit;
 }
 
