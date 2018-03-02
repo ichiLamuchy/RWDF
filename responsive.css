@@ -89,9 +89,9 @@
   }
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 830px){
   h3 {
-    font-size: 24px;
+    font-size: 23px;
   }
   article p {
     font-size: 19px;
